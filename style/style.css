@@ -1,0 +1,90 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.contanier {
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+.contanier .navbar {
+    width: 100%;
+    height: 20%;
+    position: relative;
+    /* background-color: aqua; */
+    overflow: hidden;
+
+}
+
+.navbar .top {
+    width: 100%;
+    height: 30%;
+    background-color: rgb(58, 62, 106);
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.navbar .top h1 {
+    color: white;
+    font-size: 60%;
+    padding: 10px 0% 0% 10%;
+}
+
+.navbar .left {
+    width: 100%;
+    height: 100%;
+    /* background-color: yellow; */
+    padding-left: 10%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding-right: 10%;
+
+}
+
+.navbar .left img:hover {
+    width: 27%;
+}
+
+.navbar .left a {
+    color: slategrey;
+}
+
+.navbar .left a:hover {
+    color: rgb(95, 210, 42);
+}
+
+.navbar .center {
+    width: 50%;
+    height: 30%;
+    background-color: rgb(95, 210, 42);
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    clip-path: polygon(3% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+.contanier .home{
+    width: 100%;
+    height: 80vh;
+    background-color: aqua;
+}
+.contanier .home .img .text{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 75%;
+    height: 82%;
+    background-color:rgb(95, 210, 42);
+    clip-path: polygon(30% 0, 100% 0%, 100% 100%, 0% 100%);
+    opacity: 0.6;
+    
+}
