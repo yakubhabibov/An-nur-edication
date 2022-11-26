@@ -72,19 +72,74 @@
     left: 50%;
     clip-path: polygon(3% 0, 100% 0%, 100% 100%, 0% 100%);
 }
-.contanier .home{
+
+.contanier .home {
     width: 100%;
     height: 80vh;
     background-color: aqua;
 }
-.contanier .home .img .text{
+
+.contanier .home .img .text {
     position: absolute;
     top: 20%;
     left: 25%;
     width: 75%;
     height: 82%;
-    background-color:rgb(95, 210, 42);
+    background-color: rgb(95, 210, 42);
     clip-path: polygon(30% 0, 100% 0%, 100% 100%, 0% 100%);
     opacity: 0.6;
-    
+
+}
+
+.contanier .home .text2 {
+    width: 40%;
+    height: 30%;
+    color: white;
+    font-weight: 700;
+    line-height: 20px;
+
+}
+
+.contanier .home .text2 h1 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contanier .home .text2 h3 {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.contanier .home .text2 h4 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: 15px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: beige;
+}
+
+.contanier .home .btn {
+    width: 15%;
+    height: 7%;
+    border: 1px none blue;
+    background-color: #140242FF;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+}
+
+.contanier .home .btn a {
+    color: white;
+    font-size: 25px;
+    padding-left: 20%;
+   text-transform: capitalize;
+}
+
+.contanier .home .btn:hover {
+    background-color: steelblue;
 }
