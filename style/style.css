@@ -81,10 +81,10 @@
 
 .contanier .home .img .text {
     position: absolute;
-    top: 20%;
+    top: 20.5%;
     left: 25%;
     width: 75%;
-    height: 82%;
+    height: 84%;
     background-color: rgb(95, 210, 42);
     clip-path: polygon(30% 0, 100% 0%, 100% 100%, 0% 100%);
     opacity: 0.6;
@@ -133,13 +133,82 @@
     left: 50%;
 }
 
-.contanier .home .btn a {
+.contanier .home .btn p {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 20%;
-   text-transform: capitalize;
+    padding-top: 5%;
+    text-transform: uppercase;
 }
 
 .contanier .home .btn:hover {
     background-color: steelblue;
+}
+
+.contanier .about {
+    margin-top: 3%;
+    width: 100vw;
+    height: 50vh;
+
+    /* background-color: aqua; */
+}
+
+.contanier .about .box1 {
+    width: 60%;
+    height: 30%;
+    background-color: rgb(95, 210, 42);
+    clip-path: polygon(90% 0, 100% 100%, 0% 100%, 0% 0%);
+}
+
+.contanier .about .box1 h1 {
+    color: white;
+    padding-left: 20%;
+    padding-top: 4%;
+}
+
+.contanier .about .box2 {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(58, 52, 73);
+    position: absolute;
+    top: 113%;
+    z-index: -1;
+}
+
+.contanier .about .box2 p {
+    color: white;
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    right: 60%;
+    left: 3%;
+    font-size: 15px;
+}
+
+.contanier .about .box3 {
+    width: 15%;
+    height: 5%;
+    border: 1px none blue;
+    background-color: rgb(95, 210, 42);
+    position: absolute;
+    top: 152%;
+    left: 10%;
+    cursor: pointer;
+}
+
+.contanier .about .box3:hover {
+    background-color: green;
+}
+
+.contanier .about .box3 p {
+    padding-left: 15%;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 2%;
+}
+
+.contanier .about .box4 {
+    position: absolute;
+    top: 108%;
+    left: 60%;
 }
